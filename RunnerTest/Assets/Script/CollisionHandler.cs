@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {
     int lives = 3; //How many hits you need to respawn.
+    public GameObject live;
+    public GameObject live1;
+    public GameObject live2;
+
     void Update()
     {
         ProcessCollision();    //Check the status every frame.
@@ -14,10 +18,20 @@ public class CollisionHandler : MonoBehaviour
     
     void ProcessCollision()
     {
-        if (lives == 0) //If you dont have any lives left, you respawn.
+        switch (lives)
         {
+                case 2:
+            Destroy(live2);
+            break;
+                case 1:
+            Destroy(live1);
+            break;
+                case 0:
             Respawn();
+            break;
+
         }
+        
     }
 
     void Respawn() //The respawn method using the SceneManager.
