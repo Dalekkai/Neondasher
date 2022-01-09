@@ -4880,6 +4880,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   fieldSize: 4
+  movement:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 867fa7e8-da51-48ec-891c-114e329c243d
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1 &4310094162596862254
 GameObject:
   m_ObjectHideFlags: 0

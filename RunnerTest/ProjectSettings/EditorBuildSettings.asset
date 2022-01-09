@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestScene.unity
     guid: f0427e1c69a7caf46b545f5396ec4ce1
+  - enabled: 1
+    path: Assets/Scenes/NeonDasher.unity
+    guid: 6e6f2d56f17f6a046ab7c7952d463ac0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d6541bfc8a5dfdf4ba53af328d2a14ef, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8c0c7ced68235934da8a9490e3141af5, type: 2}
